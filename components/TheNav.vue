@@ -5,6 +5,12 @@
     <ul>
       <li><NuxtLink to="/">Home</NuxtLink></li>
       <li><NuxtLink to="/about">About</NuxtLink></li>
+      <li><NuxtLink to="/news">News</NuxtLink></li>
+      <li><NuxtLink to="/products">Products</NuxtLink></li>
     </ul>
   </nav>
 </template>
+
+<script setup></script>
+
+<style scoped></style>

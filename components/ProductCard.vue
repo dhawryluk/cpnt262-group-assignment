@@ -1,5 +1,5 @@
 <template>
-  <div><p>&copy</p></div>
+  <div></div>
 </template>
 
 <script setup></script>
