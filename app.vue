@@ -1,7 +1,9 @@
 <template>
   <div>
-    <TheNav />
     <NuxtPage />
-    <TheFooter />
   </div>
 </template>
+
+<script setup></script>
+
+<style scoped></style>
