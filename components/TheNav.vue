@@ -1,23 +1,22 @@
 <template>
   <nav
-    class="flex flex-wrap backdrop-blue-sm bg-white/20 items-center justify-between p-4 bg-background w-full"
+    class="flex flex-wrap backdrop-blur-sm text-darkColor dark:text-lightColor bg-lightColor/20 dark:bg-darkColor/20 items-center justify-between p-4 w-screen"
   >
-    <NuxtLink to="/" class="text-lightColor text-3xl"
-      ><i class="text-3xl text-lightColor hover:drop-shadow-lg"></i
-      >MultiPlay</NuxtLink
+    <NuxtLink to="/" class="text-3xl"
+      ><i class="text-3xl hover:drop-shadow-lg"></i>MultiPlay</NuxtLink
     >
-    <ul class="flex text-lightColor font-bold">
-      <li class="px-12 hover:text-accent1">
+    <ul class="flex justify- gap-x-24 font-bold">
+      <li class="hover:text-accent2 hover:dark:text-accent1">
         <NuxtLink to="/">Home</NuxtLink>
       </li>
-      <li class="px-12 hover:text-accent1">
-        <NuxtLink to="/about">About</NuxtLink>
+      <li class="hover:text-accent2 hover:dark:text-accent1">
+        <NuxtLink to="/products">Products</NuxtLink>
       </li>
-      <li class="px-12 hover:text-accent1">
+      <li class="hover:text-accent2 hover:dark:text-accent1">
         <NuxtLink to="/news">News</NuxtLink>
       </li>
-      <li class="px-12 hover:text-accent1">
-        <NuxtLink to="/products">Products</NuxtLink>
+      <li class="hover:text-accent2 hover:dark:text-accent1">
+        <NuxtLink to="/about">About</NuxtLink>
       </li>
     </ul>
     <button
