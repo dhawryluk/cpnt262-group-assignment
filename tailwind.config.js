@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class",
   content: [
     "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
@@ -9,7 +10,20 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        darkColor: "#121212",
+        lightColor: "#fffffa",
+        secondary: "#172026",
+        accent1: "#00e9f9",
+        accent2: "#ff5714",
+      },
+      // fontFamily: {
+      //   titleFont: ['"Lato"', "sans-serif"],
+      //   bodyFont: ['"Monseratt"', "sans-serif"],
+      //   serif: ['"Jacquarda Bastarda 9"', "serif"],
+      // },
+    },
   },
   plugins: [],
 };
