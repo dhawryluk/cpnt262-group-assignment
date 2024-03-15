@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@vueuse/nuxt", "nuxt-icon", "@nuxtjs/color-mode"],
+  modules: ["@vueuse/nuxt", "nuxt-icon", "@nuxtjs/color-mode", "nuxt-swiper"],
   colorMode: {
     preference: "system",
     fallback: "dark",
