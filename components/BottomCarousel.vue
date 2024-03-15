@@ -1,61 +1,29 @@
 <template>
-  <swiper
-    :effect="'coverflow'"
-    :grabCursor="true"
-    :centeredSlides="true"
-    :slidesPerView="'auto'"
-    :coverflowEffect="{
-      rotate: 50,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: true,
+  <Swiper
+    :modules="[SwiperAutoplay]"
+    :slides-per-view="1"
+    :loop="true"
+    :effect="'creative'"
+    :autoplay="{
+      delay: 4000,
+      disableOnInteraction: true,
     }"
-    :pagination="true"
-    :modules="modules"
-    class="mySwiper"
+    class="h-[400px] w-[600px] rounded-[15px]"
   >
-    <swiper-slide><img src="/assets/images/Amongus.webp" /></swiper-slide
-    ><swiper-slide><img src="/assets/images/0x0.webp" /></swiper-slide
-    ><swiper-slide><img src="/assets/images/pubg-mobile-1.webp" /></swiper-slide
-    ><swiper-slide
-      ><img
-        src="/assets/images/social-image-chapter4-s3-3840x2160-d35912cc25ad.jpg" /></swiper-slide
-    ><swiper-slide
-      ><img
-        src="/assets/images/the-witcher-the-witcher-3-wild-hunt-geralt-of-rivia-video-games-wallpaper.jpg"
-    /></swiper-slide>
-  </swiper>
+    <SwiperSlide>
+      <img class="rounded-[15px]" src="/assets/images/img-7.jpg" />
+    </SwiperSlide>
+    <SwiperSlide
+      ><img class="rounded-[15px]" src="/assets/images/img-1.webp" />
+    </SwiperSlide>
+    <SwiperSlide
+      ><img class="rounded-[15px]" src="/assets/images/img-2.webp" />
+    </SwiperSlide>
+    <SwiperSlide
+      ><img class="rounded-[15px]" src="/assets/images/img-6.jpg" />
+    </SwiperSlide>
+  </Swiper>
 </template>
-<script>
-import { Swiper, SwiperSlide } from "swiper/vue";
+<script></script>
 
-import "swiper/css";
-
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-
-// import required modules
-import { EffectCoverflow, Pagination } from "swiper/modules";
-
-export default {
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-  setup() {
-    return {
-      modules: [EffectCoverflow, Pagination],
-    };
-  },
-};
-</script>
-
-<style coped>
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 300px;
-}
-</style>
+<style scoped></style>
