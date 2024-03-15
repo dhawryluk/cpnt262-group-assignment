@@ -1,26 +1,17 @@
 <template>
-  <nav
-    class="flex flex-wrap backdrop-blue-sm bg-white/30 items-center justify-between p-4 bg-background w-full"
+  <div
+    class="backdrop-blur-sm text-darkColor dark:text-lightColor bg-lightColor/20 dark:bg-darkColor/20 items-center w-screen"
   >
-    <NuxtLink to="/" class="text-white text-3xl"
-      ><i class="text-3xl text-white hover:drop-shadow-lg"></i
-      >MultiPlay</NuxtLink
-    >
-    <ul class="flex text-white font-bold">
-      <li class="px-12 hover:text-[#00e9f9]">
-        <NuxtLink to="/">Home</NuxtLink>
-      </li>
-      <li class="px-12 hover:text-[#00e9f9]">
-        <NuxtLink to="/about">About</NuxtLink>
-      </li>
-      <li class="px-12 hover:text-[#00e9f9]">
-        <NuxtLink to="/news">News</NuxtLink>
-      </li>
-      <li class="px-12 hover:text-[#00e9f9]">
-        <NuxtLink to="/products">Products</NuxtLink>
-      </li>
-    </ul>
-  </nav>
+    <nav class="flex justify-between p-4">
+      <NuxtLink to="/" class="text-3xl"
+        ><i class="text-3xl hover:drop-shadow-lg"></i>MultiPlay</NuxtLink
+      >
+      <NavToggle />
+      <MobileLinks />
+      <!-- <DesktopLinks /> -->
+      <DarkToggle />
+    </nav>
+  </div>
 </template>
 
 <script setup></script>
