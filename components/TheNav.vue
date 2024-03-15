@@ -7,8 +7,8 @@
         ><i class="text-3xl hover:drop-shadow-lg"></i>MultiPlay</NuxtLink
       >
       <NavToggle />
-      <MobileLinks />
-      <!-- <DesktopLinks /> -->
+      <!-- <MobileLinks /> -->
+      <DesktopLinks />
       <DarkToggle />
     </nav>
   </div>

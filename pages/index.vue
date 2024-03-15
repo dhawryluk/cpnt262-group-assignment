@@ -1,6 +1,5 @@
 <template>
   <body class="font-serif bg-black">
-    <TheNav />
     <header>
       <HeroCarousel />
     </header>
