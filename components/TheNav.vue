@@ -1,17 +1,12 @@
 <template>
-  <div
-    class="backdrop-blur-sm text-darkColor dark:text-lightColor bg-lightColor/20 dark:bg-darkColor/20 items-center w-screen"
+  <nav
+    class="background-blur-sm text-darkColor dark:text-lightColor bg-lightColor/20 dark:bg-darkColor/20"
   >
-    <nav class="flex justify-between p-4">
-      <NuxtLink to="/" class="text-3xl"
-        ><i class="text-3xl hover:drop-shadow-lg"></i>MultiPlay</NuxtLink
-      >
-      <NavToggle />
-      <!-- <MobileLinks /> -->
-      <DesktopLinks />
-      <DarkToggle />
-    </nav>
-  </div>
+    <div>
+      <MobileNav />
+      <DesktopNav />
+    </div>
+  </nav>
 </template>
 
 <script setup></script>
