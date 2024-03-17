@@ -1,7 +1,5 @@
 <template>
-  <nav
-    class="background-blur-sm text-darkColor dark:text-lightColor bg-lightColor/20 dark:bg-darkColor/20"
-  >
+  <nav class="text-darkColor dark:text-lightColor">
     <div>
       <MobileNav />
       <DesktopNav />

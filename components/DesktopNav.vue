@@ -1,5 +1,7 @@
 <template>
-  <div class="hidden md:flex p-4 items-center">
+  <div
+    class="sticky z-10 backdrop-filter backdrop-blur-lg bg-opacity-30 hidden md:flex p-4 items-center"
+  >
     <NuxtLink to="/" class="text-3xl hover:drop-shadow-lg">MultiPlay</NuxtLink>
     <ul
       class="flex justify-center gap-24 font-bold w-full text-bold md:border-none cursor-pointer"

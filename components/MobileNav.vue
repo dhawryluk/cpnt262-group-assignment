@@ -1,5 +1,7 @@
 <template>
-  <div class="md:hidden flex justify-between p-4">
+  <div
+    class="md:hidden flex justify-between p-4 z-10 backdrop-filter backdrop-blur-lg bg-opacity-30"
+  >
     <NuxtLink to="/" class="text-3xl">
       <i class="text-3xl hover:drop-shadow-lg"></i>MultiPlay
     </NuxtLink>
