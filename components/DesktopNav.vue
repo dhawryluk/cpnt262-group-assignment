@@ -1,8 +1,10 @@
 <template>
-  <div class="flex-col">
+  <div
+    class="sticky z-10 backdrop-filter backdrop-blur-lg bg-opacity-30 hidden md:flex p-4 items-center"
+  >
+    <NuxtLink to="/" class="text-3xl hover:drop-shadow-lg">MultiPlay</NuxtLink>
     <ul
-      class="font-bold cursor-pointer"
-      :class="!isMenuHidden ? 'block' : 'hidden'"
+      class="flex justify-center gap-24 font-bold w-full text-bold md:border-none cursor-pointer"
     >
       <li class="hover:text-accent2 hover:dark:text-accent1">
         <NuxtLink to="/">Home</NuxtLink>
@@ -17,11 +19,10 @@
         <NuxtLink to="/about">About</NuxtLink>
       </li>
     </ul>
+    <DarkToggle />
   </div>
 </template>
 
-<script setup>
-const isMenuHidden = useState("menuToggle");
-</script>
+<script setup></script>
 
 <style scoped></style>

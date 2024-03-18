@@ -1,4 +1,9 @@
 <template>
+<<<<<<< HEAD
+  <div>
+
+  </div>
+=======
   <main
     class="dark:bg-gradient-to-bl from-darkColor to-secondary bg-cover bg-center top-0 text-darkColor dark:text-lightColor"
   >
@@ -30,8 +35,13 @@
       </div>
     </div>
   </main>
+>>>>>>> 12548585381fdf13d9044485804bb653aba882c7
 </template>
 
-<script setup></script>
+<script setup>
 
-<style scoped></style>
+</script>
+
+<style lang="scss" scoped>
+
+</style>
