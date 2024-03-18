@@ -1,6 +1,6 @@
 <template>
   <div
-    class="backdrop-blur-sm text-darkColor dark:text-lightColor bg-lightColor/20 dark:bg-darkColor/20 items-center w-screen"
+    class="backdrop-blur-sm text-darkColor dark:text-lightColor bg-lightColor/20 dark:bg-darkColor/20 items-center"
   >
     <nav class="flex justify-between p-4">
       <NuxtLink to="/" class="text-3xl"
