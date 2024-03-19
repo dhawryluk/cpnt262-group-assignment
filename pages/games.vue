@@ -1,11 +1,6 @@
 <template>
-<<<<<<< HEAD
-  <div>
-
-  </div>
-=======
   <main
-    class="dark:bg-gradient-to-bl from-darkColor to-secondary bg-cover bg-center top-0 text-darkColor dark:text-lightColor"
+    class="absolute dark:bg-gradient-to-bl from-darkColor to-secondary bg-cover bg-center top-0 text-darkColor dark:text-lightColor"
   >
     <img
       class="left-0 top-0 bg-cover bg-center"
@@ -29,19 +24,13 @@
         nihil a voluptates incidunt non cupiditate, consequuntur officia rem
         sapiente explicabo laborum, itaque nisi ut quia maxime ea. Neque!
       </p>
-      <div class="flex gap-4 mt-4">
-        <AppButtonSecondary>Read More</AppButtonSecondary>
-        <AppButton>Buy Now</AppButton>
-      </div>
+    </div>
+    <div>
+      <WideCard />
     </div>
   </main>
->>>>>>> 12548585381fdf13d9044485804bb653aba882c7
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style lang="scss" scoped>
-
-</style>
+<style scoped></style>
