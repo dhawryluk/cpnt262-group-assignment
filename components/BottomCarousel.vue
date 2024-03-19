@@ -1,14 +1,15 @@
 <template>
   <Swiper
-    :modules="[SwiperAutoplay]"
+    class="w-[500px]"
+    :width="500"
+    :modules="[SwiperAutoplay, SwiperEffectCards]"
     :slides-per-view="1"
     :loop="true"
-    :effect="'creative'"
+    :effect="'cards'"
     :autoplay="{
-      delay: 4000,
+      delay: 3000,
       disableOnInteraction: true,
     }"
-    class="h-[400px] w-[600px] rounded-[15px]"
   >
     <SwiperSlide>
       <img class="rounded-[15px]" src="/assets/images/img-7.jpg" />
@@ -24,6 +25,7 @@
     </SwiperSlide>
   </Swiper>
 </template>
+
 <script></script>
 
-<style scoped></style>
+<style></style>
