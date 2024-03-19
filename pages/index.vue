@@ -1,6 +1,5 @@
 <template>
-  <body class="font-serif bg-black">
-    <TheNav />
+  <body class="font-serif">
     <header>
       <HeroCarousel />
       <a href="./products.vue"><AppButton /></a>
