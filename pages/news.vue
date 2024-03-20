@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+  <div>
+    <wideBodyText>
+    </wideBodyText>
+    <footer></footer>
+  </div>
 </template>
 
 <script setup></script>

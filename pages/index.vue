@@ -2,7 +2,7 @@
   <body class="font-serif">
     <header>
       <HeroCarousel />
-      <a href="./products.vue"><AppButton /></a>
+      <a href="./products.vue"><ReadMoreButton /></a>
     </header>
     <p class="text-center text-[18px] m-[20px] text-white">
       Welcome to MultiPlay, where virtual adventures await at every click! Dive
@@ -22,20 +22,20 @@
     <h1 class="text-[30px] p-[50px] text-white">TOP SELLERS</h1>
     <main class="grid grid-cols-3 gap-[40px] mt-[50px] m-[20px]">
       <a href="https://www.cyberpunk.net/ca/en/">
-        <AppButtonSecondary /><img
+        <BuyButton /><img
           class="hover:scale-95 rounded-[15px]"
           src="/assets/images/img-3.jpg"
       /></a>
 
       <a href="https://nba.2k.com/2k24/">
-        <AppButtonSecondary /><img
+        <BuyButton /><img
           class="hover:scale-95 rounded-[15px]"
           src="/assets/images/img-4.jpg"
       /></a>
       <a
         href="https://playvalorant.com/en-us/?gad_source=1&gclid=CjwKCAjw48-vBhBbEiwAzqrZVMaEzuCLmCeodjBMCEz2GMZkB1yqFpWbhNoRPoz-v6yocRb43VLfxRoCR6YQAvD_BwE&gclsrc=aw.ds"
       >
-        <AppButtonSecondary />
+        <BuyButton />
         <img
           class="hover:scale-95 rounded-[15px]"
           src="/assets/images/img-8.jpg"

@@ -1,13 +1,11 @@
 <template>
-  <div>
-<slot><img src="/assets/images/img-4.jpg" class="w-full bg-cover bg-center" alt=""></slot>
-  </div>
+  <div class="">
+    <slot>
+      <img src="/assets/images/img-4.jpg" class="" alt="" />
+    </slot>
+    </div>
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style scoped>
-
-</style>
+<style scoped></style>
