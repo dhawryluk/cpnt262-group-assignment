@@ -15,7 +15,7 @@
       <img class="rounded-[15px]" src="/assets/images/img-7.jpg" />
     </SwiperSlide>
     <SwiperSlide
-      ><img class="rounded-[15px]" src="/assets/images/img-1.webp" />
+      ><img class="rounded-[15px]" src="/assets/images/img-5.webp" />
     </SwiperSlide>
     <SwiperSlide
       ><img class="rounded-[15px]" src="/assets/images/img-2.webp" />

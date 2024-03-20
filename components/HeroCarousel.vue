@@ -10,12 +10,19 @@
     }"
     class="h-[85vh]"
   >
-    <SwiperSlide>
+    <SwiperSlide
+      ><AppButton>AVAILABLE</AppButton>
       <img src="/assets/images/img-7.jpg" />
     </SwiperSlide>
-    <SwiperSlide><img src="/assets/images/img-1.webp" /> </SwiperSlide>
-    <SwiperSlide><img src="/assets/images/img-2.webp" /> </SwiperSlide>
-    <SwiperSlide><img src="/assets/images/img-6.jpg" /> </SwiperSlide>
+    <SwiperSlide
+      ><AppButton>AVAILABLE</AppButton><img src="/assets/images/img-2.webp" />
+    </SwiperSlide>
+    <SwiperSlide
+      ><AppButton>AVAILABLE</AppButton><img src="/assets/images/img-3.jpg" />
+    </SwiperSlide>
+    <SwiperSlide
+      ><AppButton>AVAILABLE</AppButton><img src="/assets/images/img-6.jpg" />
+    </SwiperSlide>
   </Swiper>
 </template>
 <script></script>
