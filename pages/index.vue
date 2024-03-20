@@ -1,10 +1,10 @@
 <template>
   <body class="font-serif">
-    <header>
+    <header class="mb-[30px]">
       <HeroCarousel />
       <a href="./products.vue"><ReadMoreButton /></a>
     </header>
-    <p class="text-center text-[18px] m-[20px] text-white">
+    <p class="text-center text-[18px] m-[20px] dark:text-white">
       Welcome to MultiPlay, where virtual adventures await at every click! Dive
       into a world where pixels meet passion, and gaming transcends mere
       entertainment to become an immersive experience. Whether you're a seasoned
@@ -19,7 +19,7 @@
       sharpen your reflexes, and get ready to level up your gaming experience
       with us!
     </p>
-    <h1 class="text-[30px] p-[50px] text-white">TOP SELLERS</h1>
+    <h1 class="text-[30px] p-[50px] dark: text-white">TOP SELLERS</h1>
     <main class="grid grid-cols-3 gap-[40px] mt-[50px] m-[20px]">
       <a href="https://www.cyberpunk.net/ca/en/">
         <BuyButton /><img
@@ -41,7 +41,7 @@
           src="/assets/images/img-8.jpg"
       /></a>
     </main>
-    <h1 class="text-[30px] p-[50px] text-white">GAME PATCHES</h1>
+    <h1 class="text-[30px] p-[50px] dark:text-white">GAME PATCHES</h1>
     <div>
       <BottomCarousel />
     </div>
