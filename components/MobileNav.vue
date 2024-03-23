@@ -2,8 +2,8 @@
   <div
     class="md:hidden flex justify-between p-4 z-10 backdrop-filter backdrop-blur-lg bg-opacity-30"
   >
-    <NuxtLink to="/" class="text-3xl">
-      <i class="text-3xl hover:drop-shadow-lg"></i>MultiPlay
+    <NuxtLink to="/">
+      <Logo />
     </NuxtLink>
     <div class="md:hidden">
       <button @click="toggleMenu">
@@ -22,9 +22,9 @@
   </div>
   <div
     :class="!isMenuHidden ? 'block' : 'hidden'"
-    class="flex-col text-center h-screen"
+    class="flex-col text-center h-screen backdrop-filter backdrop-blur-lg bg-opacity-30"
   >
-    <ul class="font-bold cursor-pointer mt-16 text-xl">
+    <ul class="font-bold cursor-pointer text-xl">
       <li
         class="hover:text-lightColor hover:bg-accent2 dark:hover:text-secondary hover:dark:bg-accent1 py-4"
       >

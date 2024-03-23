@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-lightColor dark:bg-darkColor text-darkColor dark:text-lightColor w-full h-full"
+    class="bg-lightColor dark:bg-darkColor text-darkColor dark:text-lightColor"
   >
     <TheNav />
     <NuxtPage />

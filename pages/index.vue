@@ -24,13 +24,13 @@
       <a href="https://www.cyberpunk.net/ca/en/">
         <BuyButton /><img
           class="hover:scale-95 rounded-[15px]"
-          src="/assets/images/img-3.jpg"
+          src="/assets/images/cyberPunk1080.jpg"
       /></a>
 
-      <a href="https://nba.2k.com/2k24/">
+      <a href="https://www.rockstargames.com/gta-online">
         <BuyButton /><img
           class="hover:scale-95 rounded-[15px]"
-          src="/assets/images/img-4.jpg"
+          src="/assets/images/gta1080.jpg"
       /></a>
       <a
         href="https://playvalorant.com/en-us/?gad_source=1&gclid=CjwKCAjw48-vBhBbEiwAzqrZVMaEzuCLmCeodjBMCEz2GMZkB1yqFpWbhNoRPoz-v6yocRb43VLfxRoCR6YQAvD_BwE&gclsrc=aw.ds"
@@ -38,7 +38,7 @@
         <BuyButton />
         <img
           class="hover:scale-95 rounded-[15px]"
-          src="/assets/images/img-8.jpg"
+          src="/assets/images/siege1080.jpg"
       /></a>
     </main>
     <h1 class="text-[30px] p-[50px] dark:text-white">GAME PATCHES</h1>

@@ -1,9 +1,7 @@
 <template>
   <div class="">
-    <slot>
-      <img src="/assets/images/img-4.jpg" class="" alt="" />
-    </slot>
-    </div>
+    <slot> </slot>
+  </div>
 </template>
 
 <script setup></script>
