@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3 class="wideBodyText text-md text-darkColor dark:text-lightColor">
+    <h3 class="wideBodyText text-md">
       <slot
         >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
         dolores laudantium quam quaerat excepturi id autem ex magni officiis
