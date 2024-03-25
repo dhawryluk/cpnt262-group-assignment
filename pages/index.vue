@@ -18,7 +18,9 @@
       sharpen your reflexes, and get ready to level up your gaming experience
       with us!
     </p>
-    <h1 class="text-[30px] p-[50px] dark: text-white">TOP SELLERS</h1>
+    <h1 class="text-[20px] md:text-[30px] p-[50px] dark:text-white">
+      TOP SELLERS
+    </h1>
     <main
       class="grid grid-cols-1 md:grid md:grid-cols-3 gap-[40px] mt-[50px] m-[20px]"
     >
@@ -58,7 +60,9 @@
         >
       </div>
     </main>
-    <h1 class="text-[30px] p-[50px] dark:text-white">GAME NEWS</h1>
+    <h1 class="text-[20px] md:text-[30px] p-[50px] dark:text-white">
+      GAME NEWS
+    </h1>
     <div>
       <BottomCarousel />
     </div>
