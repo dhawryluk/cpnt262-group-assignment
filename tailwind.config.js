@@ -18,6 +18,9 @@ export default {
         accent1: "#00e9f9",
         accent2: "#ff5714",
       },
+      backgroundImage: {
+        gamesHero: "url('/assets/images/horizon4k.jpg')",
+      },
       // fontFamily: {
       //   titleFont: ['"Lato"', "sans-serif"],
       //   bodyFont: ['"Monseratt"', "sans-serif"],

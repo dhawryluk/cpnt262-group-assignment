@@ -1,36 +1,56 @@
 <template>
-  <main
-    class="absolute dark:bg-gradient-to-bl from-darkColor to-secondary bg-cover bg-center top-0 text-darkColor dark:text-lightColor"
-  >
-    <img
-      class="left-0 top-0 bg-cover bg-center"
-      src="../assets/images/img-3.jpg"
-      alt="cyber girl"
-    />
-    <div class="w-5/6 m-auto mt-6">
-      <h1 class="text-3xl my-3 font-bold">New Arrivals</h1>
+  <main class="absolute h-full top-0">
+    <div class="relative h-5/6 w-full bg-gamesHero bg-cover bg-center">
+      <div
+        class="absolute bg-white p-4 md:pb-8 backdrop-filter backdrop-blur-lg bg-opacity-30 top-2/3 left-2/3 md:bottom-32 md:right-60 text-center border-dotted border-2 text-darkColor z-10 rounded-xl"
+      >
+        <h1 class="text-2xl">
+          Amazing 9<Icon name="heroicons-solid:star"></Icon>
+        </h1>
+        <p>Editors Choice</p>
+      </div>
+    </div>
+    <div class="dark:bg-darkColor px-16 md:px-32 py-16">
+      <h1 class="text-3xl font-bold">New Arrivals</h1>
       <p class="text-justify">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex recusandae
-        non perspiciatis, minima hic cum laborum eos provident nemo, odit modi
-        voluptate ea vitae! Aut voluptas consectetur quasi optio quibusdam.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-        dolores sunt voluptates aliquam adipisci nesciunt optio veritatis hic
-        aliquid cumque! Quas voluptatem cum laudantium nam dolor consequuntur
-        mollitia dolorem placeat! Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Reprehenderit, recusandae, odit, consectetur dolorum
-        repellat corrupti natus aperiam perspiciatis provident officiis ex quas
-        asperiores ducimus saepe! Ea, enim. Quaerat, maiores quas. Lorem ipsum
-        dolor, sit amet consectetur adipisicing elit. Provident similique optio
-        nihil a voluptates incidunt non cupiditate, consequuntur officia rem
-        sapiente explicabo laborum, itaque nisi ut quia maxime ea. Neque!
+        Our new arrivals page is your gateway to the freshest releases, where
+        innovation meets imagination, promising hours of immersive gameplay.
+        Meanwhile, on our trending games page, you'll discover the pulse of the
+        gaming community, featuring titles that are igniting passion and setting
+        new standards in the gaming world. Whether you're a seasoned gamer
+        seeking your next conquest or a newcomer eager to embark on your gaming
+        journey, MultiPlay's curated selection ensures there's something
+        extraordinary waiting just for you. Join us and unlock the endless
+        possibilities of gaming excellence at MultiPlay!
       </p>
     </div>
-    <div>
+    <div class="dark:bg-darkColor">
       <WideCard />
+    </div>
+    <div>
+      <h1 class="dark:bg-darkColor px-16 md:px-40 py-6 text-3xl">
+        Summer Spotlight
+      </h1>
+      <NarrowCard />
     </div>
   </main>
 </template>
 
-<script setup></script>
+<script setup>
+// const games = ref([]);
+
+// const fetchGames = async () => {
+//   try {
+//     const response = await fetch("/server/games.json");
+//     const data = await response.json();
+//     games.value = data;
+//   } catch (error) {
+//     console.error("Error fetching games:", error);
+//   }
+// };
+
+// onMounted(fetchGames);
+//
+</script>
 
 <style scoped></style>

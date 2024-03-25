@@ -12,16 +12,19 @@
     }"
   >
     <SwiperSlide>
-      <img class="rounded-[15px]" src="/assets/images/img-7.jpg" />
+      <img class="rounded-[15px]" src="/assets/images/amongUs1080.webp" />
     </SwiperSlide>
     <SwiperSlide
-      ><img class="rounded-[15px]" src="/assets/images/img-5.webp" />
+      ><img
+        class="rounded-[15px]"
+        src="/assets/images/deadByDaylight1080.webp"
+      />
     </SwiperSlide>
     <SwiperSlide
-      ><img class="rounded-[15px]" src="/assets/images/img-2.webp" />
+      ><img class="rounded-[15px]" src="/assets/images/eldenRing1080.jpg" />
     </SwiperSlide>
     <SwiperSlide
-      ><img class="rounded-[15px]" src="/assets/images/img-6.jpg" />
+      ><img class="rounded-[15px]" src="/assets/images/rocketLeague1080.webp" />
     </SwiperSlide>
   </Swiper>
 </template>

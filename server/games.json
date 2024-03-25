@@ -1,0 +1,86 @@
+// [
+//   {
+//     "game_title": "Dota 2",
+//     "description": "Dota 2 is a multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation.",
+//     "year_released": 2013,
+//     "rating": "9/10",
+//     "image": "https://example.com/dota2.jpg"
+//   },
+//   {
+//     "game_title": "Among Us",
+//     "description": "Among Us is an online multiplayer social deduction game developed and published by InnerSloth.",
+//     "year_released": 2018,
+//     "rating": "8/10",
+//     "image": "https://example.com/amongus.jpg"
+//   },
+//   {
+//     "game_title": "Valorant",
+//     "description": "Valorant is a free-to-play multiplayer tactical first-person shooter game developed and published by Riot Games.",
+//     "year_released": 2020,
+//     "rating": "8.5/10",
+//     "image": "https://example.com/valorant.jpg"
+//   },
+//   {
+//     "game_title": "League of Legends",
+//     "description": "League of Legends is a multiplayer online battle arena video game developed and published by Riot Games.",
+//     "year_released": 2009,
+//     "rating": "8.5/10",
+//     "image": "https://example.com/leagueoflegends.jpg"
+//   },
+//   {
+//     "game_title": "NBA 2K",
+//     "description": "NBA 2K is a series of basketball simulation video games developed and published by 2K Sports.",
+//     "year_released": 1999,
+//     "rating": "8.5/10",
+//     "image": "https://example.com/nba2k.jpg"
+//   },
+//   {
+//     "game_title": "Call of Duty: Warzone",
+//     "description": "Call of Duty: Warzone is a free-to-play battle royale video game developed and published by Infinity Ward and Raven Software.",
+//     "year_released": 2020,
+//     "rating": "8.5/10",
+//     "image": "https://example.com/warzone.jpg"
+//   },
+//   {
+//     "game_title": "The Witcher 3: Wild Hunt",
+//     "description": "The Witcher 3: Wild Hunt is an action role-playing game developed and published by CD Projekt.",
+//     "year_released": 2015,
+//     "rating": "9.5/10",
+//     "image": "https://example.com/witcher3.jpg"
+//   },
+//   {
+//     "game_title": "Counter-Strike: Global Offensive",
+//     "description": "Counter-Strike: Global Offensive is a multiplayer first-person shooter video game developed and published by Valve Corporation.",
+//     "year_released": 2012,
+//     "rating": "9/10",
+//     "image": "https://example.com/csgo.jpg"
+//   },
+//   {
+//     "game_title": "Minecraft",
+//     "description": "Minecraft is a sandbox video game developed and published by Mojang Studios.",
+//     "year_released": 2009,
+//     "rating": "9/10",
+//     "image": "https://example.com/minecraft.jpg"
+//   },
+//   {
+//     "game_title": "PlayerUnknown's Battlegrounds",
+//     "description": "PlayerUnknown's Battlegrounds is a multiplayer online battle royale game developed and published by PUBG Corporation.",
+//     "year_released": 2017,
+//     "rating": "8/10",
+//     "image": "https://example.com/pubg.jpg"
+//   },
+//   {
+//     "game_title": "Cyberpunk 2077",
+//     "description": "Cyberpunk 2077 is an action role-playing video game developed and published by CD Projekt.",
+//     "year_released": 2020,
+//     "rating": "7/10",
+//     "image": "https://example.com/cyberpunk2077.jpg"
+//   },
+//   {
+//     "game_title": "Grand Theft Auto Online",
+//     "description": "Grand Theft Auto Online is a multiplayer action-adventure game developed and published by Rockstar Games.",
+//     "year_released": 2013,
+//     "rating": "8/10",
+//     "image": "https://example.com/gtaonline.jpg"
+//   }
+// ]

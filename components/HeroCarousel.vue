@@ -12,16 +12,26 @@
   >
     <SwiperSlide
       ><AppButton>AVAILABLE</AppButton>
-      <img src="/assets/images/img-7.jpg" />
+      <img src="/assets/images/witcher4k.jpg" />
     </SwiperSlide>
     <SwiperSlide
-      ><AppButton>AVAILABLE</AppButton><img src="/assets/images/img-2.webp" />
+      ><AppButton>AVAILABLE</AppButton
+      ><img src="/assets/images/fortnite4k.jpg" />
     </SwiperSlide>
     <SwiperSlide
-      ><AppButton>AVAILABLE</AppButton><img src="/assets/images/img-3.jpg" />
+      ><AppButton>AVAILABLE</AppButton><img src="/assets/images/nba4k.jpeg" />
     </SwiperSlide>
     <SwiperSlide
-      ><AppButton>AVAILABLE</AppButton><img src="/assets/images/img-6.jpg" />
+      ><AppButton>AVAILABLE</AppButton
+      ><img src="/assets/images/hellDivers4k.jpg" />
+    </SwiperSlide>
+    <SwiperSlide
+      ><AppButton>AVAILABLE</AppButton
+      ><img src="/assets/images/valorant4k.jpg" />
+    </SwiperSlide>
+    <SwiperSlide
+      ><AppButton>AVAILABLE</AppButton
+      ><img src="/assets/images/witcher4k.jpg" />
     </SwiperSlide>
   </Swiper>
 </template>
