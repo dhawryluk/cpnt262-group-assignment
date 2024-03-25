@@ -11,7 +11,7 @@
     class="h-[40vh] relative md:h-[90vh]"
   >
     <SwiperSlide>
-      <a href="/pages/games.vue">
+      <a href="http://localhost:3000/games">
         <ReadMoreButton
           class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
           >AVAILABLE NOW
@@ -20,7 +20,7 @@
       <img src="assets/images/witcher4k.jpg" />
     </SwiperSlide>
     <SwiperSlide>
-      <a href="/pages/games.vue">
+      <a href="http://localhost:3000/games">
         <ReadMoreButton
           class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
           >AVAILABLE NOW
@@ -28,7 +28,7 @@
       ><img src="assets/images/cyberPunk1080.jpg" />
     </SwiperSlide>
     <SwiperSlide>
-      <a href="/pages/games.vue">
+      <a href="http://localhost:3000/games">
         <ReadMoreButton
           class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
           >AVAILABLE NOW
@@ -36,7 +36,7 @@
       ><img src="assets/images/amongUs1080.webp" />
     </SwiperSlide>
     <SwiperSlide>
-      <a href="/pages/games.vue">
+      <a href="http://localhost:3000/games">
         <ReadMoreButton
           class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
           >AVAILABLE NOW</ReadMoreButton
