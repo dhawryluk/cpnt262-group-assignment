@@ -20,27 +20,43 @@
     </p>
     <h1 class="text-[30px] p-[50px] dark: text-white">TOP SELLERS</h1>
     <main class="grid grid-cols-3 gap-[40px] mt-[50px] m-[20px]">
-      <a href="https://www.cyberpunk.net/ca/en/">
-        <AppButtonSecondary /><img
-          class="hover:scale-95 rounded-[15px]"
-          src="/assets/images/img-3.jpg"
-      /></a>
-
-      <a href="https://nba.2k.com/2k24/">
-        <AppButtonSecondary /><img
-          class="hover:scale-95 rounded-[15px]"
-          src="/assets/images/img-4.jpg"
-      /></a>
-      <a
-        href="https://playvalorant.com/en-us/?gad_source=1&gclid=CjwKCAjw48-vBhBbEiwAzqrZVMaEzuCLmCeodjBMCEz2GMZkB1yqFpWbhNoRPoz-v6yocRb43VLfxRoCR6YQAvD_BwE&gclsrc=aw.ds"
-      >
-        <AppButtonSecondary />
-        <img
-          class="hover:scale-95 rounded-[15px]"
-          src="/assets/images/img-8.jpg"
-      /></a>
+      <div>
+        <a href="https://www.cyberpunk.net/ca/en/"
+          ><img
+            class="hover:scale-95 rounded-[15px]"
+            src="/assets/images/img-3.jpg"
+          />
+        </a>
+        <a href="/pages/games.vue">
+          <AppButtonSecondary class="mt-[20px]">BUY</AppButtonSecondary></a
+        >
+      </div>
+      <div>
+        <a href="https://nba.2k.com/2k24/">
+          <img
+            class="hover:scale-95 rounded-[15px]"
+            src="/assets/images/img-4.jpg"
+          />
+        </a>
+        <a href="/pages/games.vue">
+          <AppButtonSecondary class="mt-[20px]">BUY</AppButtonSecondary></a
+        >
+      </div>
+      <div>
+        <a
+          href="https://playvalorant.com/en-us/?gad_source=1&gclid=CjwKCAjw48-vBhBbEiwAzqrZVMaEzuCLmCeodjBMCEz2GMZkB1yqFpWbhNoRPoz-v6yocRb43VLfxRoCR6YQAvD_BwE&gclsrc=aw.ds"
+        >
+          <img
+            class="hover:scale-95 rounded-[15px]"
+            src="/assets/images/img-8.jpg"
+          />
+        </a>
+        <a href="/pages/games.vue">
+          <AppButtonSecondary class="mt-[20px]">BUY</AppButtonSecondary></a
+        >
+      </div>
     </main>
-    <h1 class="text-[30px] p-[50px] dark:text-white">GAME PATCHES</h1>
+    <h1 class="text-[30px] p-[50px] dark:text-white">GAME NEWS</h1>
     <div>
       <BottomCarousel />
     </div>

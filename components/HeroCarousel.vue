@@ -8,20 +8,36 @@
       delay: 4000,
       disableOnInteraction: true,
     }"
-    class="h-[85vh]"
+    class="h-[90vh] relative"
   >
-    <SwiperSlide
-      ><AppButton>AVAILABLE</AppButton>
+    <SwiperSlide>
+      <a href="/pages/games.vue">
+        <AppButton class="absolute bottom-0 ml-[20px] mb-[30px] w-[200px]"
+          >AVAILABLE NOW</AppButton
+        ></a
+      >
       <img src="/assets/images/img-7.jpg" />
     </SwiperSlide>
-    <SwiperSlide
-      ><AppButton>AVAILABLE</AppButton><img src="/assets/images/img-2.webp" />
+    <SwiperSlide>
+      <a href="/pages/games.vue">
+        <AppButton class="absolute bottom-0 ml-[20px] mb-[30px] w-[200px]"
+          >AVAILABLE NOW</AppButton
+        ></a
+      ><img src="/assets/images/img-2.webp" />
     </SwiperSlide>
-    <SwiperSlide
-      ><AppButton>AVAILABLE</AppButton><img src="/assets/images/img-3.jpg" />
+    <SwiperSlide>
+      <a href="/pages/games.vue">
+        <AppButton class="absolute bottom-0 ml-[20px] mb-[30px] w-[200px]"
+          >AVAILABLE NOW
+        </AppButton></a
+      ><img src="/assets/images/img-3.jpg" />
     </SwiperSlide>
-    <SwiperSlide
-      ><AppButton>AVAILABLE</AppButton><img src="/assets/images/img-6.jpg" />
+    <SwiperSlide>
+      <a href="/pages/games.vue">
+        <AppButton class="absolute bottom-0 ml-[20px] mb-[30px] w-[200px]"
+          >AVAILABLE NOW</AppButton
+        ></a
+      ><img src="/assets/images/img-6.jpg" />
     </SwiperSlide>
   </Swiper>
 </template>

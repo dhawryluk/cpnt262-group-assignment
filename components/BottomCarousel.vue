@@ -12,16 +12,24 @@
     }"
   >
     <SwiperSlide>
-      <img class="rounded-[15px]" src="/assets/images/img-7.jpg" />
+      <a href="https://www.thewitcher.com/ca/en/ ">
+        <img class="rounded-[15px]" src="/assets/images/img-7.jpg" />
+      </a>
     </SwiperSlide>
-    <SwiperSlide
-      ><img class="rounded-[15px]" src="/assets/images/img-5.webp" />
+    <SwiperSlide>
+      <a href="https://pubg.com/en-na">
+        <img class="rounded-[15px]" src="/assets/images/img-5.webp"
+      /></a>
     </SwiperSlide>
-    <SwiperSlide
-      ><img class="rounded-[15px]" src="/assets/images/img-2.webp" />
+    <SwiperSlide>
+      <a href="https://www.dota2.com/home">
+        <img class="rounded-[15px]" src="/assets/images/img-9.jpg" />
+      </a>
     </SwiperSlide>
-    <SwiperSlide
-      ><img class="rounded-[15px]" src="/assets/images/img-6.jpg" />
+    <SwiperSlide>
+      <a href="https://www.fortnite.com/">
+        <img class="rounded-[15px]" src="/assets/images/img-6.jpg" />
+      </a>
     </SwiperSlide>
   </Swiper>
 </template>
