@@ -8,30 +8,40 @@
       delay: 4000,
       disableOnInteraction: true,
     }"
-    class="h-[85vh]"
+    class="h-[40vh] relative md:h-[90vh]"
   >
-    <SwiperSlide
-      ><AppButton>AVAILABLE</AppButton>
-      <img src="/assets/images/witcher4k.jpg" />
+    <SwiperSlide>
+      <a href="/pages/games.vue">
+        <AppButton
+          class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
+          >AVAILABLE NOW
+        </AppButton></a
+      >
+      <img src="/assets/images/img-7.jpg" />
     </SwiperSlide>
-    <SwiperSlide
-      ><AppButton>AVAILABLE</AppButton
-      ><img src="/assets/images/fortnite4k.jpg" />
+    <SwiperSlide>
+      <a href="/pages/games.vue">
+        <AppButton
+          class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
+          >AVAILABLE NOW
+        </AppButton></a
+      ><img src="/assets/images/img-2.webp" />
     </SwiperSlide>
-    <SwiperSlide
-      ><AppButton>AVAILABLE</AppButton><img src="/assets/images/nba4k.jpeg" />
+    <SwiperSlide>
+      <a href="/pages/games.vue">
+        <AppButton
+          class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
+          >AVAILABLE NOW
+        </AppButton></a
+      ><img src="/assets/images/img-3.jpg" />
     </SwiperSlide>
-    <SwiperSlide
-      ><AppButton>AVAILABLE</AppButton
-      ><img src="/assets/images/hellDivers4k.jpg" />
-    </SwiperSlide>
-    <SwiperSlide
-      ><AppButton>AVAILABLE</AppButton
-      ><img src="/assets/images/valorant4k.jpg" />
-    </SwiperSlide>
-    <SwiperSlide
-      ><AppButton>AVAILABLE</AppButton
-      ><img src="/assets/images/witcher4k.jpg" />
+    <SwiperSlide>
+      <a href="/pages/games.vue">
+        <AppButton
+          class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
+          >AVAILABLE NOW</AppButton
+        ></a
+      ><img src="/assets/images/img-6.jpg" />
     </SwiperSlide>
   </Swiper>
 </template>
