@@ -56,7 +56,7 @@
               -40%
             </p>
             <p class="line-through">$79.99</p>
-            <p>$47.99.99</p>
+            <p>$47.99</p>
           </div>
         </div>
       </NuxtLink>

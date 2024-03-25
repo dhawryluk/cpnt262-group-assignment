@@ -1,6 +1,15 @@
 <template>
   <main class="absolute h-full top-0">
-    <div class="relative h-5/6 w-full bg-gamesHero bg-cover bg-center"></div>
+    <div class="relative h-5/6 w-full bg-gamesHero bg-cover bg-center">
+      <div
+        class="absolute bg-white p-4 md:pb-8 backdrop-filter backdrop-blur-lg bg-opacity-30 top-2/3 left-2/3 md:bottom-32 md:right-60 text-center border-dotted border-2 text-darkColor z-10 rounded-xl"
+      >
+        <h1 class="text-2xl">
+          Amazing 9<Icon name="heroicons-solid:star"></Icon>
+        </h1>
+        <p>Editors Choice</p>
+      </div>
+    </div>
     <div class="dark:bg-darkColor px-16 md:px-32 py-16">
       <h1 class="text-3xl font-bold">New Arrivals</h1>
       <p class="text-justify">
