@@ -8,14 +8,41 @@
       delay: 4000,
       disableOnInteraction: true,
     }"
-    class="h-[85vh]"
+    class="h-[40vh] relative md:h-[90vh]"
   >
     <SwiperSlide>
-      <img src="/assets/images/img-7.jpg" />
+      <a href="/pages/games.vue">
+        <ReadMoreButton
+          class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
+          >AVAILABLE NOW
+        </ReadMoreButton></a
+      >
+      <img src="assets/images/witcher4k.jpg" />
     </SwiperSlide>
-    <SwiperSlide><img src="/assets/images/img-1.webp" /> </SwiperSlide>
-    <SwiperSlide><img src="/assets/images/img-2.webp" /> </SwiperSlide>
-    <SwiperSlide><img src="/assets/images/img-6.jpg" /> </SwiperSlide>
+    <SwiperSlide>
+      <a href="/pages/games.vue">
+        <ReadMoreButton
+          class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
+          >AVAILABLE NOW
+        </ReadMoreButton></a
+      ><img src="assets/images/cyberPunk1080.jpg" />
+    </SwiperSlide>
+    <SwiperSlide>
+      <a href="/pages/games.vue">
+        <ReadMoreButton
+          class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
+          >AVAILABLE NOW
+        </ReadMoreButton></a
+      ><img src="assets/images/amongUs1080.webp" />
+    </SwiperSlide>
+    <SwiperSlide>
+      <a href="/pages/games.vue">
+        <ReadMoreButton
+          class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
+          >AVAILABLE NOW</ReadMoreButton
+        ></a
+      ><img src="assets/images/fortnite4k.jpg" />
+    </SwiperSlide>
   </Swiper>
 </template>
 <script></script>

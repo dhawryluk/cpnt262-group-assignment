@@ -1,9 +1,6 @@
 <template>
   <div>
-    <button
-      class="text-sm rounded bg-lightColor/60 dark:bg-darkColor/50"
-      @click="changeColor"
-    >
+    <button class="text-sm rounded" @click="changeColor">
       <ColorScheme placeholder="...">
         <Icon
           v-if="colorMode.value === 'dark'"

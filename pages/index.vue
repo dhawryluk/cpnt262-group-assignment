@@ -1,9 +1,9 @@
 <template>
-  <body class="font-serif bg-black">
-    <header>
+  <body class="font-serif">
+    <header class="mb-[30px]">
       <HeroCarousel />
     </header>
-    <p class="text-center text-[18px] m-[20px] text-white">
+    <p class="text-center text-[12px] m-[20px] dark:text-white lg:text-[18px]">
       Welcome to MultiPlay, where virtual adventures await at every click! Dive
       into a world where pixels meet passion, and gaming transcends mere
       entertainment to become an immersive experience. Whether you're a seasoned
@@ -18,32 +18,59 @@
       sharpen your reflexes, and get ready to level up your gaming experience
       with us!
     </p>
-    <h1 class="text-[30px] p-[50px] text-white">TOP SELLERS</h1>
-    <main class="grid grid-cols-3 gap-[40px] mt-[50px] m-[20px]">
-      <a href="https://www.cyberpunk.net/ca/en/"
-        ><img
-          class="hover:scale-95 rounded-[15px]"
-          src="/assets/images/img-3.jpg"
-      /></a>
-      <a href="https://nba.2k.com/2k24/"
-        ><img
-          class="hover:scale-95 rounded-[15px]"
-          src="/assets/images/img-4.jpg"
-      /></a>
-      <a
-        href="https://playvalorant.com/en-us/?gad_source=1&gclid=CjwKCAjw48-vBhBbEiwAzqrZVMaEzuCLmCeodjBMCEz2GMZkB1yqFpWbhNoRPoz-v6yocRb43VLfxRoCR6YQAvD_BwE&gclsrc=aw.ds"
-        ><img
-          class="hover:scale-95 rounded-[15px]"
-          src="/assets/images/img-8.jpg"
-      /></a>
+    <h1 class="text-[20px] md:text-[30px] p-[50px] dark:text-white">
+      TOP SELLERS
+    </h1>
+    <main
+      class="grid grid-cols-1 md:grid md:grid-cols-3 gap-[40px] mt-[50px] m-[20px]"
+    >
+      <div>
+        <a href="https://www.cyberpunk.net/ca/en/"
+          ><img
+            class="hover:scale-95 rounded-[15px] w-[400px] md:w-[500px]"
+            src="assets/images/cyberpunk2.jpeg"
+          />
+        </a>
+        <a href="/pages/games.vue">
+          <BuyButton class="mt-[20px]">BUY</BuyButton></a
+        >
+      </div>
+      <div>
+        <a href="https://nba.2k.com/2k24/">
+          <img
+            class="hover:scale-95 rounded-[15px] w-[400px] md:w-[500px]"
+            src="assets/images/nba4k.jpeg"
+          />
+        </a>
+        <a href="/pages/games.vue">
+          <BuyButton class="mt-[20px]">BUY</BuyButton></a
+        >
+      </div>
+      <div>
+        <a
+          href="https://playvalorant.com/en-us/?gad_source=1&gclid=CjwKCAjw48-vBhBbEiwAzqrZVMaEzuCLmCeodjBMCEz2GMZkB1yqFpWbhNoRPoz-v6yocRb43VLfxRoCR6YQAvD_BwE&gclsrc=aw.ds"
+        >
+          <img
+            class="hover:scale-95 rounded-[15px] w-[400px] md:w-[500px]"
+            src="assets/images/valorant4k.jpg"
+          />
+        </a>
+        <a href="/pages/games.vue">
+          <BuyButton class="mt-[20px]">BUY</BuyButton></a
+        >
+      </div>
     </main>
-    <h1 class="text-[30px] p-[50px] text-white">GAME PATCHES</h1>
+    <h1 class="text-[20px] md:text-[30px] p-[50px] dark:text-white">
+      GAME NEWS
+    </h1>
     <div>
       <BottomCarousel />
     </div>
   </body>
 </template>
 
-<script></script>
+<script>
+import BuyButton from "~/components/BuyButton.vue";
+</script>
 
 <style scoped></style>
