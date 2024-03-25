@@ -2,7 +2,6 @@
   <body class="font-serif">
     <header class="mb-[30px]">
       <HeroCarousel />
-      <a href="./products.vue"><ReadMoreButton /></a>
     </header>
     <p class="text-center text-[12px] m-[20px] dark:text-white lg:text-[18px]">
       Welcome to MultiPlay, where virtual adventures await at every click! Dive
@@ -29,22 +28,22 @@
         <a href="https://www.cyberpunk.net/ca/en/"
           ><img
             class="hover:scale-95 rounded-[15px] w-[400px] md:w-[500px]"
-            src="../assets/images/img-10.jpeg"
+            src="assets/images/cyberpunk2.jpeg"
           />
         </a>
         <a href="/pages/games.vue">
-          <AppButtonSecondary class="mt-[20px]">BUY</AppButtonSecondary></a
+          <BuyButton class="mt-[20px]">BUY</BuyButton></a
         >
       </div>
       <div>
         <a href="https://nba.2k.com/2k24/">
           <img
             class="hover:scale-95 rounded-[15px] w-[400px] md:w-[500px]"
-            src="/assets/images/img-4.jpg"
+            src="assets/images/nba4k.jpeg"
           />
         </a>
         <a href="/pages/games.vue">
-          <AppButtonSecondary class="mt-[20px]">BUY</AppButtonSecondary></a
+          <BuyButton class="mt-[20px]">BUY</BuyButton></a
         >
       </div>
       <div>
@@ -53,11 +52,11 @@
         >
           <img
             class="hover:scale-95 rounded-[15px] w-[400px] md:w-[500px]"
-            src="/assets/images/img-8.jpg"
+            src="assets/images/valorant4k.jpg"
           />
         </a>
         <a href="/pages/games.vue">
-          <AppButtonSecondary class="mt-[20px]">BUY</AppButtonSecondary></a
+          <BuyButton class="mt-[20px]">BUY</BuyButton></a
         >
       </div>
     </main>
@@ -70,6 +69,8 @@
   </body>
 </template>
 
-<script></script>
+<script>
+import BuyButton from "~/components/BuyButton.vue";
+</script>
 
 <style scoped></style>
