@@ -31,7 +31,7 @@
             src="assets/images/cyberpunk2.jpeg"
           />
         </a>
-        <a href="/pages/games.vue">
+        <a href="http://localhost:3000/games">
           <BuyButton class="mt-[20px]">BUY</BuyButton></a
         >
       </div>
@@ -42,7 +42,7 @@
             src="assets/images/nba4k.jpeg"
           />
         </a>
-        <a href="/pages/games.vue">
+        <a href="http://localhost:3000/games">
           <BuyButton class="mt-[20px]">BUY</BuyButton></a
         >
       </div>
@@ -55,7 +55,7 @@
             src="assets/images/valorant4k.jpg"
           />
         </a>
-        <a href="/pages/games.vue">
+        <a href="http://localhost:3000/games">
           <BuyButton class="mt-[20px]">BUY</BuyButton></a
         >
       </div>
