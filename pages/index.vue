@@ -28,7 +28,7 @@
         <a href="https://www.cyberpunk.net/ca/en/"
           ><img
             class="hover:scale-95 rounded-[15px] w-[400px] md:w-[500px]"
-            src="/assets/images/img-3.jpg"
+            src="../assets/images/img-10.jpeg"
           />
         </a>
         <a href="/pages/games.vue">
