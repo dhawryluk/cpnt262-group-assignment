@@ -2,6 +2,7 @@
   <body class="font-serif">
     <header class="mb-[30px]">
       <HeroCarousel />
+      <a href="./products.vue"><ReadMoreButton /></a>
     </header>
     <p class="text-center text-[12px] m-[20px] dark:text-white lg:text-[18px]">
       Welcome to MultiPlay, where virtual adventures await at every click! Dive
