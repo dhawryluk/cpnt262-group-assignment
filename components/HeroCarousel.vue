@@ -12,36 +12,36 @@
   >
     <SwiperSlide>
       <a href="/pages/games.vue">
-        <AppButton
+        <ReadMoreButton
           class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
           >AVAILABLE NOW
-        </AppButton></a
+        </ReadMoreButton></a
       >
-      <img src="/assets/images/img-7.jpg" />
+      <img src="assets/images/witcher4k.jpg" />
     </SwiperSlide>
     <SwiperSlide>
       <a href="/pages/games.vue">
-        <AppButton
+        <ReadMoreButton
           class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
           >AVAILABLE NOW
-        </AppButton></a
-      ><img src="/assets/images/img-2.webp" />
+        </ReadMoreButton></a
+      ><img src="assets/images/cyberPunk1080.jpg" />
     </SwiperSlide>
     <SwiperSlide>
       <a href="/pages/games.vue">
-        <AppButton
+        <ReadMoreButton
           class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
           >AVAILABLE NOW
-        </AppButton></a
-      ><img src="/assets/images/img-3.jpg" />
+        </ReadMoreButton></a
+      ><img src="assets/images/amongUs1080.webp" />
     </SwiperSlide>
     <SwiperSlide>
       <a href="/pages/games.vue">
-        <AppButton
+        <ReadMoreButton
           class="absolute bottom-0 ml-[20px] mb-[30px] text-[12px] md:text-[20px] w-[100px] md:w-[200px]"
-          >AVAILABLE NOW</AppButton
+          >AVAILABLE NOW</ReadMoreButton
         ></a
-      ><img src="/assets/images/img-6.jpg" />
+      ><img src="assets/images/fortnite4k.jpg" />
     </SwiperSlide>
   </Swiper>
 </template>

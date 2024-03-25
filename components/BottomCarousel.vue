@@ -14,7 +14,7 @@
       <a href="https://www.thewitcher.com/ca/en/ ">
         <img
           class="rounded-[15px] w-[350px] md:w-[500px]"
-          src="/assets/images/img-7.jpg"
+          src="/assets/images/witcher4k.jpg"
         />
       </a>
     </SwiperSlide>
@@ -22,14 +22,14 @@
       <a href="https://pubg.com/en-na">
         <img
           class="rounded-[15px] w-[350px] md:w-[500px]"
-          src="/assets/images/img-5.webp"
+          src="assets/images/battlegrounds1080.jpg"
       /></a>
     </SwiperSlide>
     <SwiperSlide>
       <a href="https://www.dota2.com/home">
         <img
           class="rounded-[15px] w-[350px] md:w-[500px]"
-          src="/assets/images/img-9.jpg"
+          src="assets/images/dota2.jpg"
         />
       </a>
     </SwiperSlide>
@@ -37,7 +37,7 @@
       <a href="https://www.fortnite.com/">
         <img
           class="rounded-[15px] w-[350px] md:w-[500px]"
-          src="/assets/images/img-6.jpg"
+          src="/assets/images/fortnite4k.jpg"
         />
       </a>
     </SwiperSlide>
