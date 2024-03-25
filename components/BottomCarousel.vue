@@ -1,7 +1,6 @@
 <template>
   <Swiper
-    class="w-[500px]"
-    :width="500"
+    class="w-[350px] md:w-[500px] md:rounded-[15px] rounded-[15px]"
     :modules="[SwiperAutoplay, SwiperEffectCards]"
     :slides-per-view="1"
     :loop="true"
