@@ -21,11 +21,11 @@ export default {
       backgroundImage: {
         gamesHero: "url('/assets/images/horizon4k.jpg')",
       },
-      // fontFamily: {
-      //   titleFont: ['"Lato"', "sans-serif"],
-      //   bodyFont: ['"Monseratt"', "sans-serif"],
-      //   serif: ['"Jacquarda Bastarda 9"', "serif"],
-      // },
+      fontFamily: {
+        titleFont: ['"Lato"', "sans-serif"],
+        bodyFont: ['"Monseratt"', "sans-serif"],
+        serif: ['"Jacquarda Bastarda 9"', "serif"],
+      },
     },
   },
   plugins: [],

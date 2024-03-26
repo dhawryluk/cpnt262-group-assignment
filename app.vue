@@ -4,6 +4,7 @@
   >
     <TheNav />
     <NuxtPage />
+    <TheFooter />
   </div>
 </template>
 
