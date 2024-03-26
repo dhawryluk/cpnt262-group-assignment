@@ -31,8 +31,9 @@
             src="assets/images/cyberpunk2.jpeg"
           />
         </NuxtLink>
-        <Nuxtlink to="http://localhost:3000/games">
-          <BuyButton class="mt-[20px]">BUY</BuyButton></Nuxtlink
+
+        <NuxtLink to="http://localhost:3000/games">
+          <BuyButton class="mt-[20px]">BUY</BuyButton></NuxtLink
         >
       </div>
       <div>
