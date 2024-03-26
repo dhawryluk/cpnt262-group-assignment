@@ -28,22 +28,22 @@
       <li
         class="hover:text-lightColor hover:bg-accent2 dark:hover:text-secondary hover:dark:bg-accent1 py-4"
       >
-        <NuxtLink to="/">Home</NuxtLink>
+        <NuxtLink to="/" class="block">Home</NuxtLink>
       </li>
       <li
         class="hover:text-lightColor hover:bg-accent2 dark:hover:text-secondary hover:dark:bg-accent1 py-4"
       >
-        <NuxtLink to="/games">Games</NuxtLink>
+        <NuxtLink to="/games" class="block">Games</NuxtLink>
       </li>
       <li
         class="hover:text-lightColor hover:bg-accent2 dark:hover:text-secondary hover:dark:bg-accent1 py-4"
       >
-        <NuxtLink to="/news">News</NuxtLink>
+        <NuxtLink to="/news" class="block">News</NuxtLink>
       </li>
       <li
         class="hover:text-lightColor hover:bg-accent2 dark:hover:text-secondary hover:dark:bg-accent1 py-4"
       >
-        <NuxtLink to="/about">About</NuxtLink>
+        <NuxtLink to="/about" class="block">About</NuxtLink>
       </li>
     </ul>
     <DarkToggle class="text-center"></DarkToggle>

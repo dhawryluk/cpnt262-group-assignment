@@ -93,7 +93,6 @@
 
      
   </main>
-  <TheFooter></TheFooter>
 </body>
 </template>
 

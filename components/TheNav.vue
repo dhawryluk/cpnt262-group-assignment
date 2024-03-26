@@ -1,5 +1,5 @@
 <template>
-  <nav class="sticky z-10 text-darkColor dark:text-lightColor">
+  <nav class="sticky z-10 font-bodyFont text-darkColor dark:text-lightColor">
     <div>
       <MobileNav />
       <DesktopNav />
