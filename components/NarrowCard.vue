@@ -5,7 +5,7 @@
     >
       <NuxtLink to="https://buy.stripe.com/4gw8zbddL7El9va3cD">
         <div
-          class="bg-lightColor dark:bg-secondary h-60 md:h-full rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
+          class="bg-lightColor dark:bg-secondary min-h-60 rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
         >
           <img
             src="../assets/images/apex.jpg"
