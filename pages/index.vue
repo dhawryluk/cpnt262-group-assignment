@@ -69,8 +69,6 @@
   </body>
 </template>
 
-<script>
-import BuyButton from "~/components/BuyButton.vue";
-</script>
+<script></script>
 
 <style scoped></style>
