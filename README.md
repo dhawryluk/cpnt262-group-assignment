@@ -10,9 +10,8 @@
 _Live site link:_
 
 _Third party libraries used_
--tailwind
--icon
--colormode
--swiper
+- tailwind
+- icon
+- colormode
+- swiper
 
-Video by Yan Krukau: https://www.pexels.com/video/people-playing-computer-games-9071400/
