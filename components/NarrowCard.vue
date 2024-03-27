@@ -5,7 +5,7 @@
     >
       <NuxtLink to="https://buy.stripe.com/4gw8zbddL7El9va3cD">
         <div
-          class="bg-lightColor dark:bg-secondary min-h-60 rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
+          class="bg-lightColor dark:bg-secondary min-h-55 md:min-h-60 rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
         >
           <img
             src="../assets/images/apex.jpg"
@@ -24,7 +24,7 @@
       </NuxtLink>
       <NuxtLink to="https://buy.stripe.com/4gw8zbddL7El9va3cD">
         <div
-          class="bg-lightColor dark:bg-secondary h-60 md:h-full rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
+          class="bg-lightColor dark:bg-secondary min-h-55 md:min-h-60 md:h-full rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
         >
           <img
             src="../assets/images/baldursGate.jpg"
@@ -43,7 +43,7 @@
       </NuxtLink>
       <NuxtLink to="https://buy.stripe.com/4gw8zbddL7El9va3cD">
         <div
-          class="bg-lightColor dark:bg-secondary h-60 md:h-full rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
+          class="bg-lightColor dark:bg-secondary min-h-55 md:min-h-60 md:h-full rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
         >
           <img
             src="../assets/images/cs2.jpg"
@@ -62,7 +62,7 @@
       </NuxtLink>
       <NuxtLink to="https://buy.stripe.com/4gw8zbddL7El9va3cD">
         <div
-          class="bg-lightColor dark:bg-secondary h-60 md:h-full rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
+          class="bg-lightColor dark:bg-secondary min-h-55 md:min-h-60 md:h-full rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
         >
           <img
             src="../assets/images/dogma.jpg"
@@ -81,7 +81,7 @@
       </NuxtLink>
       <NuxtLink to="https://buy.stripe.com/4gw8zbddL7El9va3cD">
         <div
-          class="bg-lightColor dark:bg-secondary h-60 md:h-full rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
+          class="bg-lightColor dark:bg-secondary min-h-55 md:min-h-60 md:h-full rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
         >
           <img
             src="../assets/images/forza.jpg"
@@ -100,7 +100,7 @@
       >
       <NuxtLink to="https://buy.stripe.com/4gw8zbddL7El9va3cD">
         <div
-          class="bg-lightColor dark:bg-secondary h-60 md:h-full rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
+          class="bg-lightColor dark:bg-secondary min-h-55 md:min-h-60 md:h-full rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
         >
           <img
             src="../assets/images/hogwarts.jpg"
@@ -119,15 +119,15 @@
       </NuxtLink>
       <NuxtLink to="https://buy.stripe.com/4gw8zbddL7El9va3cD">
         <div
-          class="bg-lightColor dark:bg-secondary h-60 md:h-full rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
+          class="bg-lightColor dark:bg-secondary min-h-55 md:min-h-60 md:h-full rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
         >
           <img
             src="../assets/images/mw3.jpg"
             class="grid-col-2 md:grid-rows-1"
             alt="modern warfare III"
           />
-          <h1 class="text-center text-2xl mb-6 py-4">Modern Warfare III</h1>
-          <div class="flex justify-between mr-4">
+          <h1 class="text-center text-2xl mb-6 py-4">MW III</h1>
+          <div class="flex justify-between mr-4 pb-2">
             <p class="bg-accent2 dark:bg-accent1 w-12 text-center rounded-r-md">
               -25%
             </p>
@@ -138,7 +138,7 @@
       >
       <NuxtLink to="https://buy.stripe.com/4gw8zbddL7El9va3cD">
         <div
-          class="bg-lightColor dark:bg-secondary h-60 md:h-full rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
+          class="bg-lightColor dark:bg-secondary min-h-55 md:min-h-60 md:h-full rounded-lg drop-shadow-lg transition ease-in-out delay-150 hover:scale-105 duration-200"
         >
           <img
             src="../assets/images/jedi.jpg"
@@ -146,7 +146,7 @@
             alt="jedi survivor"
           />
           <h1 class="text-center text-2xl mb-6 py-4">Jedi Survivor</h1>
-          <div class="flex justify-between mr-4">
+          <div class="flex justify-between mr-4 pb-2">
             <p class="bg-accent2 dark:bg-accent1 w-12 text-center rounded-r-md">
               -55%
             </p>

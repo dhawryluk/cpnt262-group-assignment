@@ -1,8 +1,6 @@
 <template>
   <div class="wideCard grid gap-6 md:grid-cols-2 w-4/5 mx-auto pb-6">
-    <div
-      class="bg-lightColor dark:bg-secondary rounded-lg drop-shadow-lg max-h-[500px]"
-    >
+    <div class="bg-lightColor dark:bg-secondary rounded-lg drop-shadow-lg">
       <WideBodyImage class="grid md:grid-rows-1"
         ><h1
           class="text-xl bg-accent2 dark:bg-accent1 w-24 text-right pr-3 pt-1 pb-1 rounded-r-xl absolute top-3"

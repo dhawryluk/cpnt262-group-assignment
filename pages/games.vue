@@ -2,7 +2,7 @@
   <header class="h-[650px]">
     <div class="absolute top-0 h-full w-full bg-gamesHero bg-cover bg-center">
       <div
-        class="absolute font-titleFont bg-white p-4 md:p-8 backdrop-filter backdrop-blur-lg bg-opacity-30 top-2/3 left-2/3 text-center border-dotted border-2 text-darkColor rounded-xl"
+        class="absolute font-titleFont bg-white p-4 md:p-8 backdrop-filter backdrop-blur-lg bg-opacity-30 top-2/3 left-2/3 text-center border-dotted border-2 text-darkColor rounded-xl xl:top-1/2 xl:left-3/4"
       >
         <h1 class="text-2xl">
           Amazing 9<Icon name="heroicons-solid:star"></Icon>
