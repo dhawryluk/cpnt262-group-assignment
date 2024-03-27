@@ -25,38 +25,39 @@
       class="grid grid-cols-1 md:grid md:grid-cols-3 gap-[40px] mt-[50px] m-[20px]"
     >
       <div>
-        <a href="https://www.cyberpunk.net/ca/en/"
+        <NuxtLink to="https://www.cyberpunk.net/ca/en/"
           ><img
             class="hover:scale-95 rounded-[15px] w-[400px] md:w-[500px]"
             src="assets/images/cyberpunk2.jpeg"
           />
-        </a>
-        <a href="http://localhost:3000/games">
-          <BuyButton class="mt-[20px]">BUY</BuyButton></a
+        </NuxtLink>
+
+        <NuxtLink to="http://localhost:3000/games">
+          <BuyButton class="mt-[20px]">BUY</BuyButton></NuxtLink
         >
       </div>
       <div>
-        <a href="https://nba.2k.com/2k24/">
+        <NuxtLink to="https://nba.2k.com/2k24/">
           <img
             class="hover:scale-95 rounded-[15px] w-[400px] md:w-[500px]"
             src="assets/images/nba4k.jpeg"
           />
-        </a>
-        <a href="http://localhost:3000/games">
-          <BuyButton class="mt-[20px]">BUY</BuyButton></a
+        </NuxtLink>
+        <NuxtLink to="http://localhost:3000/games">
+          <BuyButton class="mt-[20px]">BUY</BuyButton></NuxtLink
         >
       </div>
       <div>
-        <a
-          href="https://playvalorant.com/en-us/?gad_source=1&gclid=CjwKCAjw48-vBhBbEiwAzqrZVMaEzuCLmCeodjBMCEz2GMZkB1yqFpWbhNoRPoz-v6yocRb43VLfxRoCR6YQAvD_BwE&gclsrc=aw.ds"
+        <NuxtLink
+          to="https://playvalorant.com/en-us/?gad_source=1&gclid=CjwKCAjw48-vBhBbEiwAzqrZVMaEzuCLmCeodjBMCEz2GMZkB1yqFpWbhNoRPoz-v6yocRb43VLfxRoCR6YQAvD_BwE&gclsrc=aw.ds"
         >
           <img
             class="hover:scale-95 rounded-[15px] w-[400px] md:w-[500px]"
             src="assets/images/valorant4k.jpg"
           />
-        </a>
-        <a href="http://localhost:3000/games">
-          <BuyButton class="mt-[20px]">BUY</BuyButton></a
+        </NuxtLink>
+        <NuxtLink to="http://localhost:3000/games">
+          <BuyButton class="mt-[20px]">BUY</BuyButton></NuxtLink
         >
       </div>
     </main>
@@ -69,8 +70,6 @@
   </body>
 </template>
 
-<script>
-import BuyButton from "~/components/BuyButton.vue";
-</script>
+<script></script>
 
 <style scoped></style>

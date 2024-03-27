@@ -11,35 +11,35 @@
     }"
   >
     <SwiperSlide>
-      <a href="https://www.thewitcher.com/ca/en/ ">
+      <NuxtLink to="https://www.thewitcher.com/ca/en/news">
         <img
           class="rounded-[15px] w-[350px] md:w-[500px]"
           src="/assets/images/witcher4k.jpg"
         />
-      </a>
+      </NuxtLink>
     </SwiperSlide>
     <SwiperSlide>
-      <a href="https://pubg.com/en-na">
+      <Nuxtlink to="https://pubg.com/en-na/news">
         <img
           class="rounded-[15px] w-[350px] md:w-[500px]"
           src="assets/images/battlegrounds1080.jpg"
-      /></a>
+      /></Nuxtlink>
     </SwiperSlide>
     <SwiperSlide>
-      <a href="https://www.dota2.com/home">
+      <NuxtLink to="https://www.dota2.com/news">
         <img
           class="rounded-[15px] w-[350px] md:w-[500px]"
           src="assets/images/dota2.jpg"
         />
-      </a>
+      </NuxtLink>
     </SwiperSlide>
     <SwiperSlide>
-      <a href="https://www.fortnite.com/">
+      <NuxtLink to="https://www.fortnite.com/news?lang=en-US">
         <img
           class="rounded-[15px] w-[350px] md:w-[500px]"
           src="/assets/images/fortnite4k.jpg"
         />
-      </a>
+      </NuxtLink>
     </SwiperSlide>
   </Swiper>
 </template>
