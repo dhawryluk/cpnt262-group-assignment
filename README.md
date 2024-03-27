@@ -15,4 +15,3 @@ _Third party libraries used_
 -colormode
 -swiper
 
-Video by Yan Krukau: https://www.pexels.com/video/people-playing-computer-games-9071400/
