@@ -19,11 +19,11 @@
       </NuxtLink>
     </SwiperSlide>
     <SwiperSlide>
-      <Nuxtlink to="https://pubg.com/en-na/news">
+      <NuxtLink to="https://pubg.com/en-na/">
         <img
           class="rounded-[15px] w-[350px] md:w-[500px]"
           src="assets/images/battlegrounds1080.jpg"
-      /></Nuxtlink>
+      /></NuxtLink>
     </SwiperSlide>
     <SwiperSlide>
       <NuxtLink to="https://www.dota2.com/news">
